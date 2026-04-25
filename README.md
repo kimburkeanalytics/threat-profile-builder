@@ -1,2 +1,2 @@
 # threat-profile-builder
-AI-enabled workflow for fusing public threat reporting into structured cyber threat actor profiles.
+Python-based threat intelligence pipeline that aggregates multi-source reporting and uses LLMs to generate executive threat actor profiles.
