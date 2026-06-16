@@ -1,154 +1,75 @@
-\# Threat Profile Builder
-
-
+# Threat Profile Builder
 
 An AI-assisted workflow for creating structured cyber threat profiles from recent open-source reporting.
 
+## Overview
 
+Threat Profile Builder is a prototype that demonstrates how generative AI can support cyber threat intelligence workflows. It helps transform public reporting into structured, executive-ready threat profiles while preserving the need for human review, source awareness, and analytic judgment.
 
-This project demonstrates how generative AI can support cyber threat intelligence workflows by helping analysts synthesize public reporting, organize source material, and produce executive-ready threat actor profiles. The initial prototype focused on Cl0p ransomware as a sample use case.
+The initial prototype was developed using Cl0p ransomware as a sample use case.
 
+## Why I Built This
 
+Cyber threat intelligence teams often need to synthesize fragmented reporting quickly and clearly for senior leaders, investigators, and operational stakeholders. This project explores how AI can support that process by helping analysts organize source material, draft structured profiles, and produce concise summaries that remain reviewable by a human analyst.
 
-\## Purpose
+The goal is not to replace analytic judgment. The goal is to make repetitive synthesis work faster, more structured, and easier to review.
 
+## What the Workflow Does
 
+The workflow is designed to help an analyst:
 
-Cyber threat intelligence teams often need to transform fragmented reporting into concise, decision-ready products. This project explores how AI can support that process while preserving human review, source awareness, and analytic judgment.
+* Collect and organize recent public reporting on a threat actor or campaign
+* Structure key findings into a repeatable threat profile format
+* Generate an executive-ready draft brief
+* Maintain a source inventory for review
+* Support human-in-the-loop validation and refinement
 
+## Example Use Case
 
+The prototype was tested using public reporting on Cl0p ransomware. The workflow generated draft outputs such as:
 
-The workflow is designed to help with:
+* Executive threat brief
+* Source inventory
+* Structured threat actor profile
+* Report-ready narrative content
 
+## Skills Demonstrated
 
+This project demonstrates experience with:
 
-\* Source organization
+* Cyber threat intelligence synthesis
+* Generative AI workflow design
+* Prompt engineering
+* Python-based automation
+* Executive communication
+* Source-aware analysis
+* Responsible AI implementation
+* Human-in-the-loop review processes
 
-\* Threat actor profiling
+## Responsible Use
 
-\* Executive brief generation
+This project is intended as a portfolio and learning demonstration. It should not be used with classified, proprietary, sensitive, or personally identifiable information.
 
-\* Source inventory creation
+AI-generated outputs should always be reviewed, edited, and validated by a human analyst before use.
 
-\* Repeatable analytic structure
+## Repository Structure
 
-\* Human-in-the-loop review
+* `src/` — Core project scripts
+* `.gitignore` — Files and folders excluded from Git tracking
+* `README.md` — Project overview and documentation
 
-
-
-\## Example Use Case
-
-
-
-The prototype was tested using recent public reporting on Cl0p ransomware. The workflow generated outputs such as:
-
-
-
-\* Executive threat brief
-
-\* Source inventory
-
-\* Structured actor profile
-
-\* Draft report content suitable for analyst review
-
-
-
-\## Project Workflow
-
-
-
-1\. Collect recent public source material on a threat actor or campaign.
-
-2\. Organize the material into a structured source inventory.
-
-3\. Use an AI-assisted prompt workflow to generate a draft threat profile.
-
-4\. Review, edit, validate, and refine the output.
-
-5\. Produce an executive-ready summary or report.
-
-
-
-\## Repository Contents
-
-
-
-```text
-
-src/        Core workflow scripts
-
-prompts/    Prompt templates used for structured generation
-
-examples/   Sanitized sample outputs
-
-docs/       Workflow notes and design rationale
-
-```
-
-
-
-\## Responsible Use
-
-
-
-This project is intended as a portfolio and learning demonstration. It does not replace analyst judgment, source validation, or structured intelligence tradecraft.
-
-
-
-The workflow should not be used to process classified, proprietary, sensitive, or personally identifiable information. Outputs should be reviewed by a human analyst before use.
-
-
-
-\## Skills Demonstrated
-
-
-
-\* Cyber threat intelligence synthesis
-
-\* Generative AI workflow design
-
-\* Prompt engineering
-
-\* Source-aware analysis
-
-\* Executive communication
-
-\* Python-based automation
-
-\* Responsible AI implementation
-
-
-
-\## Future Improvements
-
-
+## Future Improvements
 
 Potential future enhancements include:
 
+* MITRE ATT&CK mapping
+* Citation-aware output formatting
+* Confidence or reliability scoring
+* Batch processing for multiple threat actors
+* Word or PDF export
+* Analyst review checklist
+* Sanitized sample output files
 
+## Disclaimer
 
-\* Structured MITRE ATT\&CK mapping
-
-\* Automated source metadata extraction
-
-\* Confidence scoring
-
-\* Citation-aware output formatting
-
-\* Batch processing for multiple threat actors
-
-\* Export to Word or PDF
-
-\* Analyst review checklist
-
-
-
-\## Disclaimer
-
-
-
-This repository uses only public or sanitized sample material. Any generated analysis should be independently reviewed and validated before operational use.
-
-
-
+This repository uses only public or sanitized sample material. Any generated analysis should be independently reviewed and validated before operational or professional use.
